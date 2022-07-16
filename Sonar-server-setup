@@ -1,0 +1,4 @@
+For Sonarqube select Ubuntu 18
+t2.medium
+#Sonarqube server runs on port 9000 but will install nexus
+SG : open 80, as we will install nexus service.
