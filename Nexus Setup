@@ -1,0 +1,5 @@
+#Nexus Setup
+
+For Nexus select Centos
+t2.medium
+SG : 22 & 8081 open for jenkins
