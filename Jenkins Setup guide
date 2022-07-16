@@ -1,0 +1,14 @@
+#Create SG 
+#Keypair
+#Jenkins runs on 8080 port 
+#So in SG open 8080 port no
+#open = public_ip:8080  in browser to login to Jenkins Dashboard after setup
+# SSH to jenkins server.
+# verify jenkins service is running: sudo systemctl status jenkins
+# switch to root user: su -i
+# jenkins home directory is : /var/lib/jenkins
+# to get the initial password :cat /var/lib/jenkins/secrets/initialAdminPassword
+# We use plugins in Jenkins
+# Select plugins to install manually
+# Create user in jenkins
+# Jenkins will ask Jenkins URL : http://public_ip:8080
