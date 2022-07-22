@@ -5,7 +5,7 @@ This is the Debian package repository of Jenkins to automate installation and up
 
 #!/bin/bash
 sudo apt update
-sudo apt install openjdk-8-jdk -y
+apt-get install fontconfig openjdk-11-jre -y
 sudo apt install maven git wget unzip -y
 
 #This is the Debian package repository of Jenkins to automate installation and upgrade. To use this repository, first add the key to your system:
